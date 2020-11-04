@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-consumer-order-81" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-consumer-order-81/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-consumer-order-81/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-provider-payment-8006" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-provider-payment-8006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-provider-payment-8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-provider-payment-8007" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-provider-payment-8007/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consul-provider-payment-8007/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-order-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-order-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-order-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-provider-payment-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-provider-payment-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-provider-payment-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openfeign-consumer-order-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openfeign-consumer-order-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openfeign-consumer-order-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment-8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-consumer-order-81" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-consumer-order-81/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-consumer-order-81/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-provider-payment-8004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-provider-payment-8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-provider-payment-8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-provider-payment-8005" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-provider-payment-8005/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zk-provider-payment-8005/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
