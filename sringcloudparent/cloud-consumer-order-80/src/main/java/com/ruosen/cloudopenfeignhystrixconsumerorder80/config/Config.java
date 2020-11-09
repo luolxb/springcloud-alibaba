@@ -1,4 +1,4 @@
-package com.ruosen.cloudopenfeignconsumerorder80.config;
+package com.ruosen.cloudopenfeignhystrixconsumerorder80.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

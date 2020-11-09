@@ -1,4 +1,4 @@
-package com.ruosen.cloudopenfeignconsumerorder80.service;
+package com.ruosen.cloudopenfeignhystrixconsumerorder80.service;
 
 import com.ruosen.cloudcommon.entity.CommonResult;
 import com.ruosen.cloudcommon.entity.Payment;

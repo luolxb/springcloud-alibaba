@@ -1,9 +1,9 @@
 server:
-  port: 8001
+  port: 80
 
 spring:
   application:
-    name: cloud-hystrix-provider-payment
+    name: cloud-openfeign-hystrix-consumer-order-80
 
 #  datasource:
 #    type: com.alibaba.druid.pool.DruidDataSource
@@ -11,23 +11,31 @@ spring:
 #    url: jdbc:mysql://127.0.0.1:3306/cloud2020?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
 #    username: root
 #    password: 123456
-#
-#mybatis:
-#  mapper-locations: classpath:mapper/*.xml
-#  type-aliases-package: com.ruosen.cloudproviderpayment8001.entity
-
 
 eureka:
   instance:
     hostname: localhost
-    instance-id: cloud-hystrix-provider-payment-8001
-    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka/, http://127.0.0.1:7002/eureka/, http://127.0.0.1:7003/eureka/
 
+# ribbon 超时配置
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.ruosen.cloudopenfeignconsumerorder80.entity
+
+# feign 日志打印
+logging:
+  level:
+    com.ruosen.cloudopenfeignhystrixconsumerorder80.service.PaymentService: debug
+
+# 开启 feign-hystrix
+feign:
+  hystrix:
+    enabled: true
+

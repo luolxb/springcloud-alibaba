@@ -1,11 +1,10 @@
-package com.ruosen.cloudopenfeignconsumerorder80.controller;
+package com.ruosen.cloudopenfeignhystrixconsumerorder80.controller;
 
 import com.ruosen.cloudcommon.entity.CommonResult;
 import com.ruosen.cloudcommon.entity.Payment;
-import com.ruosen.cloudopenfeignconsumerorder80.service.PaymentService;
+import com.ruosen.cloudopenfeignhystrixconsumerorder80.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("order")

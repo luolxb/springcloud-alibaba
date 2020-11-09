@@ -1,47 +1,40 @@
 package com.ruosen.cloudhystrixproviderpayment8001.service.impl;
 
-import com.ruosen.cloudcommon.entity.Payment;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import com.ruosen.cloudhystrixproviderpayment8001.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @Service
 @Slf4j
 public class PaymentServiceImpl implements PaymentService {
 
-    private final static List<Payment> LIST = new ArrayList<>();
-
-    private final static String  string = "【8001】";
-    static {
-        for (int i = 1; i < 6; i++) {
-            LIST.add(new Payment(Long.parseLong(String.valueOf(i)),(i * 1000) + string));
-        }
+    @Override
+    public String paymentInfo_ok() {
+        return "线程池：" + Thread.currentThread().getName() + "paymentInfo_ok";
     }
 
     @Override
-    public Payment getOne(Long id) {
-        log.info("PaymentServiceImpl getOne ==>{}",id);
-        return LIST.get(Integer.parseInt(String.valueOf(id -1)));
-    }
-
-    @Override
-    public List<Payment> getAll() {
-
+    @HystrixCommand(fallbackMethod = "paymentInfo_error_fallbackMethod", commandProperties = {
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "6000")
+    })
+    public String paymentInfo_error() {
+        int timeNum = 7;
         try {
-            Thread.sleep(3 * 1000);
+            TimeUnit.SECONDS.sleep(timeNum);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return LIST;
+        return "线程池：" + Thread.currentThread().getName() + "paymentInfo_error" + timeNum;
+//        int i = 10 / 0;
+//        return "线程池：" + Thread.currentThread().getName() + "paymentInfo_error";
     }
 
-    @Override
-    public void save(Payment payment) {
-        log.info("PaymentServiceImpl save ==>{}",payment);
-        LIST.add(payment);
+    public String paymentInfo_error_fallbackMethod() {
+        return "paymentInfo_error：链接出【8001】，请稍后重试！！！";
     }
-
 }

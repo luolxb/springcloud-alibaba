@@ -1,4 +1,4 @@
-package com.ruosen.cloudopenfeignconsumerorder80.config;
+package com.ruosen.cloudopenfeignhystrixconsumerorder80.config;
 
 import feign.Logger;
 import org.springframework.context.annotation.Bean;

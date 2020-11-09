@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>cloud-hystrix-provider-payment-8001</artifactId>
+    <artifactId>cloud-openfeign-hystrix-consumer-order-80</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-hystrix-provider-payment-8001</name>
+    <name>cloud-openfeign-hystrix-consumer-order-80</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -40,16 +40,20 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
 <!--        <dependency>-->
-<!--            <groupId>org.mybatis.spring.boot</groupId>-->
-<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
 <!--            <groupId>mysql</groupId>-->
 <!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.mybatis.spring.boot</groupId>-->
+<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
 <!--        </dependency>-->
 
 <!--        <dependency>-->
@@ -67,7 +71,6 @@
 <!--            <artifactId>druid-spring-boot-starter</artifactId>-->
 <!--            <version>1.2.1</version>-->
 <!--        </dependency>-->
-
 
         <dependency>
             <groupId>org.projectlombok</groupId>
