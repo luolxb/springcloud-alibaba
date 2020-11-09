@@ -11,4 +11,6 @@ public interface PaymentService {
 
     String paymentInfo_error();
 
+    String payCircuitBreaker(Integer id);
+
 }

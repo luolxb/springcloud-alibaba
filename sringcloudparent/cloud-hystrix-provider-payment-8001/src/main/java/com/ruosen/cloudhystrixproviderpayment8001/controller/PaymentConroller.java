@@ -30,4 +30,9 @@ public class PaymentConroller {
         return new CommonResult<>(0, "成功", paymentService.paymentInfo_error());
     }
 
+    @GetMapping("/payCircuitBreaker/{id}")
+    public CommonResult<Object> payCircuitBreaker(@PathVariable("id") Integer id) {
+        return new CommonResult<>(0, "成功", paymentService.payCircuitBreaker(id));
+    }
+
 }
