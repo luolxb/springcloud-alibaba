@@ -1,0 +1,23 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-3344
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luolxb/spring-cloud-config.git
+          search-paths:
+            - spring-cloud-config
+      label: main
+
+
+eureka:
+  instance:
+    hostname: spring-cloud-config
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/, http://127.0.0.1:7002/eureka/, http://127.0.0.1:7003/eureka/
