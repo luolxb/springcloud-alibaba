@@ -1,0 +1,29 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: payment_routh
+          uri: lb://payment
+          predicates:
+            - Method=GET,POST
+#        - id: NACOS-CONSUMER-FEIGN
+#          uri: lb://nacos-consumer-feign
+#          predicates:
+#            - Method=GET,POST
+
+eureka:
+  instance:
+    hostname: cloud-gateway
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/, http://127.0.0.1:7002/eureka/, http://127.0.0.1:7003/eureka/
