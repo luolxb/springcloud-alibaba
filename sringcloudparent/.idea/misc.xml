@@ -23,6 +23,12 @@
         <option value="$PROJECT_DIR$/cloud-consul-provider-payment-8007/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-openfeign-consumer-order-80/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hystrix-provider-payment-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-openfeign-hystrix-consumer-order-80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-3344/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-3355/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-3366/pom.xml" />
       </list>
     </option>
   </component>
