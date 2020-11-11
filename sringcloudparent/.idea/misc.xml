@@ -29,6 +29,9 @@
         <option value="$PROJECT_DIR$/cloud-config-3344/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-3355/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-3366/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-prvider-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-prvider-9002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-consumer-83/pom.xml" />
       </list>
     </option>
   </component>

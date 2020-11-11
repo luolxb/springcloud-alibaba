@@ -9,8 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-7002" />
         <module name="cloud-eureka-7001" />
-        <module name="cloud-consul-provider-payment-8006" />
-        <module name="cloud-consul-provider-payment-8007" />
         <module name="cloud-gateway-9527" />
         <module name="cloud-eureka-7003" />
         <module name="cloud-consumer-order-80" />
@@ -22,13 +20,18 @@
         <module name="cloud-provider-payment-8003" />
         <module name="cloud-consul-consumer-order-81" />
         <module name="cloud-zk-provider-payment-8005" />
+        <module name="cloud-config-3355" />
+        <module name="cloud-consumer-hystrix-dashboard-9001" />
+        <module name="cloud-alibaba-prvider-9001" />
+        <module name="cloud-alibaba-prvider-9002" />
+        <module name="cloud-consul-provider-payment-8006" />
+        <module name="cloud-consul-provider-payment-8007" />
+        <module name="cloud-alibaba-consumer-83" />
         <module name="cloud-common" />
         <module name="cloud-openfeign-consumer-order-80" />
         <module name="cloud-openfeign-hystrix-consumer-order-80" />
         <module name="cloud-config-3344" />
-        <module name="cloud-config-3355" />
         <module name="cloud-config-3366" />
-        <module name="cloud-consumer-hystrix-dashboard-9001" />
       </profile>
     </annotationProcessing>
   </component>
